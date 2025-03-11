@@ -1,0 +1,26 @@
+package estrutura_sequencial;
+
+import java.util.Scanner;
+
+public class EntradaDeDados {
+	public static void main(String[]args) {
+		/*
+		 * Para fazer entrada de dados, nós vamos criar um objeto do tipo "Scanner" da seguinte forma:
+		 */
+		Scanner sc = new Scanner(System.in);
+		
+		//Para ler uma palavra (texto sem espaços)
+		System.out.println("Qual é o seu nome?");
+		String nome = sc.next();
+		System.out.println("Olá, "+nome);
+		
+		//Para ler um número inteiro
+		System.out.println("Digite um número inteiro:");
+		int numero = sc.nextInt();
+		System.out.println("O número digitado foi:"+numero);
+		
+		
+		sc.close();
+		
+	}
+}

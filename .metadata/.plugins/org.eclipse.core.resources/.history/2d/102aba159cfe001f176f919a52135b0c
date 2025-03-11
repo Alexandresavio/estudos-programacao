@@ -1,0 +1,7 @@
+package estrutura_sequencial;
+
+public class EntradaDeDados {
+	public static void main(String[]args) {
+		
+	}
+}
